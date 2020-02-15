@@ -1,0 +1,29 @@
+// JavaScript source code
+const CIDR = 18
+let ipAddress
+// if (CIDR) 
+switch (CIDR) {
+    case 15:
+        ipAddress = '192.168.0.0';
+    case 18: '192.165.0.0';
+        break;
+    case 19;
+        ipAddress = '192.164.0.0';
+        break;
+    default:
+        console.log('THE NETWORK ADDRESS FOR 4{CIDR} is $ipAddress}');
+}
+
+const groceryItems = ['blue', 'red', 'yellow', 'orange']
+console.log (groceryItems.length - l)
+console.log('YOU MUST BE ${groceryItems[3]}')
+
+
+//i++ increases by 1 in the array note; arrays start at 0 
+
+for (let index = 0, index groceryList.length; index++) {
+    const element = groceryList[index]
+    console.log(index)
+
+
+}
