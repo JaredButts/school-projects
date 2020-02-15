@@ -1,0 +1,25 @@
+
+
+let randomBoolean = Math.random() >= 0.5;
+
+let randomNumber = Math.floor (Math.random() * 100);
+
+
+
+if(randomBoolean){ 
+
+    const hour = new Date().getHours()
+
+    const mins = new Date().getMinutes()
+
+    const secs = new Date().getSeconds()
+
+
+
+}
+
+    else {let randomNumber = Math.floor (Math.random() * 100);}
+
+var d = new Date();
+
+document.getElementById("todayDate").innerHTML = d;
