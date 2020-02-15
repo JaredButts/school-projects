@@ -1,0 +1,50 @@
+/////index.html 
+
+ 
+
+
+
+<head> </head>
+
+<body>
+
+<button> Alert Me </button>
+
+<button id= "promptMe"> Prompt Me </button>
+
+<script src= "index.js"></script>
+
+</body>
+
+/////// index.js
+ 
+
+ 
+
+
+
+const alertMe = document.querySelector("button")
+
+console.log(alertMe)
+
+alertMe.onclick = function alertIt(){
+
+    alert("You've been alerted")
+
+
+
+
+}
+
+const promptMe = document.getElementById('promptMe')
+
+console.log(promptMe)
+
+
+
+
+promptMe.onclick = function thePrompt() {
+
+    prompt('What was the reason for this?')
+
+}
